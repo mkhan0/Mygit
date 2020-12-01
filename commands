@@ -1,0 +1,13 @@
+git config --global user.name "mkhan0"
+  719  git config --global user.email "mkhan@usc.edu"
+  723  mkdir Mygit
+  724  git init Mygit/
+  725  cd Mygit/
+  732  git add README
+  733  git add testfile.saspwd
+
+  734  get commit -m "thesting git repos"
+  735  git commit -m "thesting git repos"
+  737  git branch -M main
+  738  git remote add origin git@github.com:mkhan0/Mygit.git
+  740  git push -u origin  main
